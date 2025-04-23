@@ -1,6 +1,9 @@
 # 📰 News Portal
 
-A simple and functional news site front-end design that presents news content to users through a modern web interface.
+This is a simple and functional news portal front-end design that presents news content through a modern web interface.  
+In this design, clicking on news or author images redirects the user to the corresponding content pages.
+
+Special thanks to [WeatherAPI](https://www.weatherapi.com/weather/q/izmir-2437419) for providing weather data used in the widget.
 
 ## 📌 Project Overview
 
