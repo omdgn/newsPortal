@@ -17,6 +17,9 @@ This project aims to deliver news in an accessible, readable, and interactive wa
 - **Writers Section** – Author profiles are loaded from `yazarlar.json`.
 - **Responsive CSS** – Basic styling provided via `style.css`.
 - **JavaScript Interactions** – User interactions are handled in the `js/` directory.
+> 📂 The categories **Gündem**, **Yazarlar**, and **Ekonomi** include subcategories in the dropdown menu.  
+> 🔗 However, these subcategories are not linked to any pages and are non-clickable for now.
+
 
 ## 📱 Responsive Design & Assumptions
 
