@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Haber Portalı - Anasayfa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Sağ Reklam -->
+<div id="right-ad" class="sticky-ad right">
+    <a href="https://www.thekindcup.com/about" target="_blank">
+        <img src="assets/images/kareReklam.jpg" alt="sag reklam">
+    </a>  
+  <button onclick="closeAd('right-ad')">✖</button>
+</div>
+
+  <!-- Sol Reklam -->
+  <div id="left-ad" class="sticky-ad left">
+    <a href="https://www.thekindcup.com/about" target="_blank">
+        <img src="assets/images/yukarıUzunReklam.jpg" alt="sol reklam">
+    </a>
+    <button onclick="closeAd('left-ad')">✖</button>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="main-nav">
+    <!-- Menu Kutusu -->
+    <div class="hamburger" onclick="toggleSidebar()">☰</div>
+    <!-- Arama Kutusu -->
+    <!-- <div class="search-box">
+        <input type="text" placeholder="Haber ara..." />
+        <button type="submit">🔍</button>
+    </div> -->
+    <form class="search-box" action="arama.html" method="GET">
+        <input type="text" name="q" placeholder="Haber ara..." />
+        <button type="submit">🔍</button>
+    </form>  
+
+    <div class="logo">📰 BTW</div>
+  
+    <div class="auth-buttons">
+      <button class="login-btn">Giriş</button>
+      <button class="register-btn">Kaydol</button>
+    </div>
+  </nav>  
+
+  <div id="sidebar" class="sidebar">
+    <div class="sidebar-header">
+      <span class="sidebar-logo">📰 BTW</span>
+      <span class="close-btn" onclick="toggleSidebar()">✖</span>
+    </div>
+  
+    <input type="text" placeholder="Haber ara..." class="search-input" />
+  
+    <ul class="sidebar-menu">
+      <li>Son Dakika</li>
+      <li>Yazarlar</li>
+      <li>Gündem</li>
+      <li>Ekonomi</li>
+      <li>Dünya</li>
+      <li>Günün İçinden</li>
+      <li>Spor</li>
+      <li>Hayat</li>
+      <li>Magazin</li>
+      <li>E-Gazete</li>
+      <li>Otomotiv</li>
+      <li>Finans</li>
+      <li>Teknoloji</li>
+    </ul>
+  </div>
+  
+
+  <!-- KATEGORİ MENÜSÜ -->
+<div class="category-bar">
+    <ul class="category-menu">
+      <li><a href="#">Son Dakika</a></li>
+        <li class="dropdown">
+            <a href="#">Gündem</a>
+            <ul class="dropdown-menu">
+            <li><a href="#">Siyaset</a></li>
+            <li><a href="#">Çevre</a></li>
+            <li><a href="#">Eğitim</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="#">Yazarlar</a>
+            <ul class="dropdown-menu">
+            <li><a href="#">Emin Çölaşan</a></li>
+            <li><a href="#">Yılmaz Özdil</a></li>
+            <li><a href="#">Uğur Dündar</a></li>
+            <li><a href="#">Saygı Öztürk</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="#">Ekonomi</a>
+            <ul class="dropdown-menu">
+            <li><a href="#">Döviz</a></li>
+            <li><a href="#">Borsa</a></li>
+            <li><a href="#">Kripto</a></li>
+            </ul>
+        </li>
+      <li><a href="#">Spor</a></li>
+      <li><a href="#">Magazin</a></li>
+      <li><a href="#">Hayat</a></li>
+      <li><a href="#">Teknoloji</a></li>
+      <li><a href="#">Dünya</a></li>
+    </ul>
+  </div>
+  
+  
+
+  <!-- Finans Barı -->
+  <section id="finance-bar">
+    <div id="finance-ticker"></div>
+  </section>
+
+
+  <!-- YAZARLAR -->
+    <section id="writers-section">
+        <h2>YAZARLAR</h2>
+            <div id="writers-container"></div>
+    </section>  
+  
+
+  <!-- Hava Durumu -->
+  <div class="weather-widget">
+    <div id="weatherapi-weather-widget-4"></div>
+    <script type='text/javascript' src='https://www.weatherapi.com/weather/widget.ashx?loc=2437419&wid=4&tu=1&div=weatherapi-weather-widget-4' async></script>
+    <noscript>
+      <a href="https://www.weatherapi.com/weather/q/izmir-2437419">10 day hour by hour Izmir weather</a>
+    </noscript>
+  </div>  
+  
+
+  <!-- Slider Alanı -->
+  <section id="slider-section">
+    <h2>Öne Çıkan Haberler</h2>
+  
+    <div class="slider-wrapper">
+      <button class="slider-btn left" onclick="prevSlide()">&#10094;</button>
+  
+      <div id="slider-container">
+        <p>Yükleniyor...</p>
+      </div>
+  
+      <button class="slider-btn right" onclick="nextSlide()">&#10095;</button>
+    </div>
+  </section>  
+
+
+
+  <!-- Diğer Haberlerin Alanı -->
+  <section id="more-news">
+    <h2>Diğer Haberler</h2>
+    <div class="news-grid" id="newsGrid"> </div>
+  </section>
+  
+
+  
+  <!-- Breaking News (Son Dakika) -->
+  <section id="breaking-section">
+    <marquee id="breaking-news" scrollamount="6">btw.com</marquee>
+  </section>
+
+  
+
+<!-- FOOTER -->
+<footer class="site-footer">
+    <div class="footer-top">
+      <!-- HABERLER -->
+      <div class="footer-section">
+        <h4>Haberler</h4>
+        <ul>
+          <li><a href="#">Gündem</a></li>
+          <li><a href="#">Spor</a></li>
+          <li><a href="#">Ekonomi</a></li>
+          <li><a href="#">Magazin</a></li>
+        </ul>
+      </div>
+  
+      <!-- SAYFALAR -->
+      <div class="footer-section">
+        <h4>Sayfalar</h4>
+        <ul>
+          <li><a href="#">Yazarlar</a></li>
+          <li><a href="#">İletişim</a></li>
+          <li><a href="#">Hakkımızda</a></li>
+        </ul>
+      </div>
+  
+      <!-- SOSYAL MEDYA -->
+      <div class="footer-section">
+        <h4>Sosyal Medya</h4>
+        <div class="social-icons">
+          <a href="#"><img src="assets/icons/instagram.jpg" alt="Instagram" /></a>
+          <a href="#"><img src="assets/icons/twitter.jpg" alt="Twitter" /></a>
+          <a href="#"><img src="assets/icons/facebook.jpg" alt="Facebook" /></a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      <p>Bu site eğitim amaçlı hazırlanmıştır.</p>
+    </div>
+  </footer>
+  
+  
+
+  <script src="js/home.js"></script>
+</body>
+</html>
