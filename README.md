@@ -27,8 +27,8 @@ This project incorporates various responsive design techniques to enhance mobile
 ### Visual & Component Behaviors
 
 - The **slider** resizes to 95% width on mobile, with image height limited to 200px.
-- **Ad sections** (`.sticky-ad.left`, `.sticky-ad.right`) and the **weather widget** are hidden on mobile.
-- **Writers section** (`#writers-section`) is also hidden on mobile to improve layout.
+- ⚠️ ***Ad sections (`.sticky-ad.left`, `.sticky-ad.right`) and the weather widget are hidden on mobile.***
+- ⚠️ ***Writers section (`#writers-section`) is also hidden on mobile to improve layout.***
 - **Category menu** uses `flex-wrap` to wrap properly on smaller viewports.
 
 ### Structural Adjustments
