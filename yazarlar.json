@@ -1,0 +1,86 @@
+{
+    "writers": [
+      {
+        "writerKey": 0,
+        "name": "Emin Çölaşan",
+        "category": "Gündem",
+        "description": "Apo pazarlığının geçmişi",
+        "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/development/uploads/images/2023/10/emincolasanpng-g2FMYWpR4k6cahY2kIUr6Q.png?w=300&h=260&mode=crop",
+        "url": "https://www.sozcu.com.tr/apo-pazarliginin-gecmisi-p162090?utm_source=haberdetay_1&utm_medium=free&utm_campaign=anasayfaYazarlar"
+      },
+      {
+        "writerKey": 1,
+        "name": "Uğur Dündar",
+        "category": "Gündem",
+        "description": "Seçmen rüzgarı iktidarı yanlışlardan dönme konusunda uyarıyor!..",
+        "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/development/uploads/images/2023/10/ugurdundarpng-B5V2u1fNOESiTC1LKPrqkw.png?w=300&h=260&mode=crop",
+        "url": "https://www.sozcu.com.tr/secmen-ruzgari-iktidari-yanlislardan-donme-konusunda-uyariyor-p162079?utm_source=haberdetay_1&utm_medium=free&utm_campaign=anasayfaYazarlar"
+      },
+      {
+        "writerKey": 2,
+        "name": "Saygı Öztürk",
+        "category": "Gündem",
+        "description": "Tahliye kararlarının ilginç gerekçeleri var",
+        "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/development/uploads/images/2023/10/saygiozturkpng-lG7DyZ9jn06qWcoe4-tmMw.png?w=300&h=260&mode=crop",
+        "url": "https://www.sozcu.com.tr/tahliye-kararlarinin-ilginc-gerekceleri-var-p162080?utm_source=haberdetay_1&utm_medium=free&utm_campaign=anasayfaYazarlar"
+      },
+      {
+        "writerKey": 3,
+        "name": "Nedim Türkmen",
+        "category": "Ekonomi",
+        "description": "İşveren, çalışan kadar vergi ödedi",
+        "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/development/uploads/images/2023/10/nedimturkmenpng-gdWCWL-aZU_mwcu_GMPmCg.png",
+        "url": "https://www.sozcu.com.tr/isveren-calisan-kadar-vergi-odedi-p128868"
+      },
+      {
+        "writerKey": 4,
+        "name": "Erdal Sağlam",
+        "category": "Ekonomi",
+        "description": "Ekonomi durdu, rezervlerde erime durmuyor",
+        "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2024/12/erdalsaglamfotopng-52A4Ouns_UGpQ1BGUF4Jyg.png",
+        "url": "https://www.sozcu.com.tr/ekonomi-durdu-rezervlerde-erime-durmuyor-p162091"
+      },
+      {
+        "writerKey": 5,
+        "name": "Kemal Özcan",
+        "category": "Magazin",
+        "description": "Horlama cinsel yaşamı nasıl etkiler?",
+        "imageUrl": "https://korkusuz01.sozcucdn.com/korkusuz/development/uploads/images/2023/9/kemalozcanpng-5vu-kIpDD06cGHFdbzGN2g.png",
+        "url": "https://www.korkusuz.com.tr/horlama-cinsel-yasami-nasil-etkiler-p28079"
+      },
+      {
+        "writerKey": 6,
+        "name": "Öner Döşer",
+        "category": "Magazin",
+        "description": "7 Nisan haftası bu dolunay çok şeyi etkileyecek",
+        "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2024/1/onerdoseryazarpng-iE37Ba61eUmpqyfO_xjZKQ.png?w=300&h=260&mode=crop",
+        "url": "https://www.sozcu.com.tr/7-nisan-haftasi-bu-dolunay-cok-seyi-etkileyecek-p159037?utm_source=haberdetay_1&utm_medium=free&utm_campaign=anasayfaYazarlar"
+      },
+      {
+        "writerKey": 7,
+        "name": "Ercan Taner",
+        "category": "Spor",
+        "description": "Çok kolay galibiyet",
+        "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/development/uploads/images/2023/10/ercantanerpng-0BigTX5KDEesYdSYO0M58w.png",
+        "url": "https://www.sozcu.com.tr/cok-kolay-galibiyet-p162081"
+      },
+      {
+        "writerKey": 8,
+        "name": "Yasin Yıldırım",
+        "category": "Spor",
+        "description": "Buruk senin suyunu sıktı",
+        "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/development/uploads/images/2023/10/yasinyildirimpng-9UZhCSAgtk6ANUIxxJV6KQ.png",
+        "url": "https://www.sozcu.com.tr/buruk-senin-suyunu-sikti-p158142"
+      },
+      {
+        "writerKey": 9,
+        "name": "Erman Toroğlu",
+        "category": "Spor",
+        "description": "El elin eşeğini ıslık çalarak ararmış",
+        "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2024/12/ermantoroglupng-BRng9wqV00CXKM275dthWw.png",
+        "url": "https://www.sozcu.com.tr/el-elin-esegini-islik-calarak-ararmis-p162082"
+      }
+    ]
+  }
+  
+  
