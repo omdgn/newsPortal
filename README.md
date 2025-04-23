@@ -58,15 +58,15 @@ This project incorporates various responsive design techniques to enhance mobile
 
 ## 📁 Folder Structure
 
-newsPortal/
-  homepage.html        → Main page
-  style.css            → Styling rules
-  js/                  → JavaScript interactions
-    └─ (JS files)
-  financebar.json      → Mock finance data
-  news.json            → Mock news content
-  yazarlar.json        → Mock Author data
-  assets/              → Images, icons, etc.
+-newsPortal/
+  --homepage.html        → Main page
+  --style.css            → Styling rules
+  --js/                  → JavaScript interactions
+      └─ (JS files)
+  --financebar.json      → Mock finance data
+  --news.json            → Mock news content
+  --yazarlar.json        → Mock Author data
+  --assets/              → Images, icons, etc.
 
 
 
