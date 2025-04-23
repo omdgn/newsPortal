@@ -49,7 +49,6 @@ function closeAd(adId) {
       }
     
   
-  // === Slider Verisini Mocky'den Çek ===
   function loadSlider() {
     fetch("https://omdgn.github.io/newsPortal/news.json")
       .then(res => res.json())
@@ -184,7 +183,7 @@ function closeAd(adId) {
     /* YAZARLAR */
 
   function loadWriters() {
-    fetch("https://run.mocky.io/v3/e09702c2-32f7-4714-9431-cafbb1daf662")
+    fetch("https://omdgn.github.io/newsPortal/yazarlar.json")
       .then(res => res.json())
       .then(data => {
         const container = document.getElementById("writers-container");
