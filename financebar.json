@@ -1,0 +1,53 @@
+{
+  "finance_data": [
+    {
+      "label": "DOLAR",
+      "value": "38,29",
+      "change": "0,03",
+      "percent": "%0,07",
+      "direction": "up"
+    },
+    {
+      "label": "EURO",
+      "value": "43,73",
+      "change": "0,03",
+      "percent": "%0,07",
+      "direction": "up"
+    },
+    {
+      "label": "STERLIN",
+      "value": "51,01",
+      "change": "-0,01",
+      "percent": "%-0,02",
+      "direction": "down"
+    },
+    {
+      "label": "BITCOIN",
+      "value": "93.523,81",
+      "change": "4.917,25",
+      "percent": "%5,55",
+      "direction": "up"
+    },
+    {
+      "label": "BIST 100",
+      "value": "9.312,13",
+      "change": "-9,50",
+      "percent": "%-0,10",
+      "direction": "down"
+    },
+    {
+      "label": "ALTIN",
+      "value": "4.104,66",
+      "change": "-56,16",
+      "percent": "%-1,35",
+      "direction": "down"
+    },
+    {
+      "label": "FAİZ",
+      "value": "48,99",
+      "change": "0,00",
+      "percent": "%0,00",
+      "direction": "up"
+    }
+  ]
+}
