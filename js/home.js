@@ -51,7 +51,7 @@ function closeAd(adId) {
   
   // === Slider Verisini Mocky'den Çek ===
   function loadSlider() {
-    fetch("https://run.mocky.io/v3/079890f3-c591-4724-a612-e89a02e7be08")
+    fetch("https://omdgn.github.io/newsPortal/news.json")
       .then(res => res.json())
       .then(data => {
         const newsArray = data.news;
@@ -147,7 +147,7 @@ function closeAd(adId) {
     /*  DİĞER HABERLER  */
 
   function loadMoreNews() {
-    fetch("https://run.mocky.io/v3/079890f3-c591-4724-a612-e89a02e7be08")
+    fetch("https://omdgn.github.io/newsPortal/news.json")
       .then(res => res.json())
       .then(data => {
         const newsContainer = document.getElementById("newsGrid");
