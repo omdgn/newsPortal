@@ -1,6 +1,6 @@
 
 // === FİNANS BAR ===
-fetch("https://run.mocky.io/v3/768efd66-a0b6-4d35-a48f-2efeaf0f3a50")
+fetch("https://omdgn.github.io/newsPortal/financebar.json")
   .then(res => res.json())
   .then(data => {
     const ticker = document.getElementById("finance-ticker");
