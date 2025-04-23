@@ -57,14 +57,7 @@ This project incorporates various responsive design techniques to enhance mobile
 - Static JSON Mock Data  
 
 ## 📁 Folder Structure
-newsPortal/
-├── homepage.html # Main page
-├── style.css # Styling rules 
-├── js/ # JavaScript interactions 
-├── financebar.json # Mock finance data 
-├── news.json # Mock news content 
-├── yazarlar.json # Author data 
-└── assets/ # Images, icons, etc.
+newsPortal/ ├── homepage.html # Main page ├── style.css # Styling rules ├── js/ # JavaScript interactions │ └── (your JS files) ├── financebar.json # Mock finance data ├── news.json # Mock news content ├── yazarlar.json # Author data └── assets/ # Images, icons, etc.
 
 
 ## 🔗 Live Demo
